@@ -3084,7 +3084,29 @@
   @media (max-width: 768px) {
     .promo-mes-grid {
       grid-template-columns: 1fr;
-      gap: 20px;
+      gap: 24px;
+    }
+    .promo-mes-grid > div > div:first-child {
+      padding: 40px 28px !important;
+    }
+    .promo-mes-grid > div > div:first-child h3 {
+      font-size: 32px !important;
+      margin: 0 0 20px 0 !important;
+    }
+    .promo-mes-grid > div > div:first-child span:first-child {
+      font-size: 12px !important;
+    }
+    .promo-mes-grid > div > div:not(:first-child) {
+      padding: 32px 28px !important;
+    }
+    .promo-mes-grid > div > div:not(:first-child) p {
+      font-size: 15px !important;
+      line-height: 1.7 !important;
+      margin: 0 0 24px 0 !important;
+    }
+    .promo-mes-grid > div > div:not(:first-child) button {
+      padding: 14px 28px !important;
+      font-size: 13px !important;
     }
   }
 
