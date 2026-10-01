@@ -1,0 +1,15 @@
+# robots.txt — Truelove Spa
+# https://truelove-spa.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://truelove-spa.com/sitemap.xml
+
+# Bloquea archivos técnicos
+Disallow: /netlify/
+Disallow: /.netlify/
+
+# Cache friendly
+Crawl-delay: 1
